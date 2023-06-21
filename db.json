@@ -1,0 +1,719 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Garik",
+      "surname": "Zakaryan",
+      "email": "gar.zakaryan@gmail.com",
+      "phone": "+37493040404",
+      "password": "123456",
+      "choosenProductsId": []
+    },
+    {
+      "id": 2,
+      "name": "Davit",
+      "surname": "Hovsepyan",
+      "email": "dav.hovsepyan@gmail.com",
+      "phone": "+37493050505",
+      "password": "1234567",
+      "choosenProductsId": []
+    },
+    {
+      "id": 3,
+      "name": "Nelly",
+      "surname": "Ghazaryan",
+      "email": "nellyghazaryan55@gmail.com",
+      "phone": "+37493060606",
+      "password": "12345678",
+      "choosenProductsId": []
+    },
+    {
+      "id": 4,
+      "name": "Armen",
+      "surname": "Armenyan",
+      "email": "armenarmenyan@gmail.com",
+      "phone": "+37493070707",
+      "password": "123456789",
+      "choosenProductsId": []
+    },
+    {
+      "name": "Artak",
+      "email": "artak.artakyan@gmail.com",
+      "surname": "Artakyan",
+      "password": "12345",
+      "phone": "+37493000000",
+      "id": 5
+    },
+    {
+      "name": "Nelly",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "123456",
+      "phone": "093756327",
+      "id": 6
+    },
+    {
+      "name": "Armen",
+      "email": "armengrigoryan@gmail.com",
+      "surname": "Grigoryan",
+      "password": "12345678",
+      "phone": "+37495000000",
+      "id": 7
+    },
+    {
+      "name": "Nelli",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "12345",
+      "phone": "093756327",
+      "id": 8
+    },
+    {
+      "name": "Nelli",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "123456",
+      "phone": "093756327",
+      "id": 9
+    },
+    {
+      "name": "Nelli",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "123456",
+      "phone": "093756327",
+      "id": 10
+    },
+    {
+      "name": "Nelli",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "123456",
+      "phone": "093756327",
+      "id": 11
+    },
+    {
+      "name": "Nelli",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "123456",
+      "phone": "093756327",
+      "id": 12
+    },
+    {
+      "name": "Nelli",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "123456",
+      "phone": "093756327",
+      "id": 13
+    }
+  ],
+  "ModalData": [
+    {
+      "name": "nelly",
+      "phone": "893849384938",
+      "id": 1
+    },
+    {
+      "name": "some",
+      "phone": "565657",
+      "id": 2
+    },
+    {
+      "name": "",
+      "phone": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "phone": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "phone": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "phone": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "phone": "",
+      "id": 7
+    },
+    {
+      "name": "hghgh",
+      "phone": "4343434",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Люля кебаб куриный",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvkKCy72itfy4_vnhv3wjttWJadELf46xsHg&usqp=CAU",
+      "catalogName": "lyulya_kebab",
+      "description": "Подается С Луком, Соусом И С Лавашом",
+      "weight": "200гр.",
+      "cost": "800 ₽"
+    },
+    {
+      "id": 2,
+      "title": " Шашлык из Баранины",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmUmkdpRqKbRWTI-jSYhbyxJ322EZuLN2GQw&usqp=CAU",
+      "catalogName": "baranina",
+      "description": "Подается вместе с соусом",
+      "weight": "200гр.",
+      "cost": "1500 ₽"
+    },
+    {
+      "id": 3,
+      "title": " Стейк из Говядины",
+      "img": "https://www.koolinar.ru/all_image/recipes/131/131565/recipe_f17a18ba-8b57-4bc4-89c8-417c423a250f.jpg",
+      "catalogName": "govyadina",
+      "description": "Стейк из говядины с кровью",
+      "weight": "200гр.",
+      "cost": "1780 ₽"
+    },
+    {
+      "id": 4,
+      "title": "курица на гриле",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxCMqX6m_TeOgg7A7HW9-oUEMwvvEsGNNFqg&usqp=CAU",
+      "catalogName": "kurica",
+      "description": "Подается вместе с картошкой фри и соусом",
+      "weight": "200гр.",
+      "cost": "1900 ₽"
+    },
+    {
+      "id": 5,
+      "title": "Стейк из лосося",
+      "img": "https://www.vkusnyblog.com/wp-content/uploads/2008/03/pryanye-steiki-lososya.jpg",
+      "catalogName": "riba",
+      "description": "Подается вместе со спаржей и соусом",
+      "weight": "200гр.",
+      "cost": "2000 ₽"
+    },
+    {
+      "id": 6,
+      "title": "Баклажаны на гриле",
+      "img": "https://vilkin.pro/wp-content/uploads/2019/08/baklazani-na-mangale.jpg",
+      "catalogName": "ovoshi",
+      "description": "Подается вместе с соусом",
+      "weight": "200гр.",
+      "cost": "800 ₽"
+    },
+    {
+      "id": 7,
+      "title": "Картошка на углях",
+      "img": "https://shashlikcentr.ru/wp-content/uploads/2021/04/shash_grib.jpg",
+      "catalogName": "kartoshka_na_uglyakh",
+      "description": "Подается вместе с соусом",
+      "weight": "200гр.",
+      "cost": "300 ₽"
+    },
+    {
+      "id": 8,
+      "title": "Шаурма на углях куриная",
+      "img": "https://e0.edimdoma.ru/data/recipes/0007/6175/76175-ed4_wide.jpg?1628800240",
+      "catalogName": "shaurma_na_uglyakh",
+      "description": "курица, лук, острый соус",
+      "weight": "200гр.",
+      "cost": "1300 ₽"
+    },
+    {
+      "id": 9,
+      "title": "Лангет из мраморной говядины",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC7KHeaLtnk-W2CXnwRzAeuqCii967rLMiSw&usqp=CAU",
+      "catalogName": "langet",
+      "description": "Лангет из мраморной говядины с гарниром",
+      "weight": "200гр.",
+      "cost": "1600 ₽"
+    },
+    {
+      "id": 10,
+      "title": "Греческий салат",
+      "img": "https://static.1000.menu/res/640/img/content-v2/9a/aa/1980/salat-grecheskii-s-kuricei-klassicheskii_1648792206_11_max.jpg",
+      "catalogName": "salati",
+      "description": "Помидоры, сыр фета,оливки, салат",
+      "weight": "200гр.",
+      "cost": "1400 ₽"
+    },
+    {
+      "id": 11,
+      "title": "Грибы маринованные",
+      "img": "https://img.iamcook.ru/old/upl/recipes/middle/u-bd9a7f6a427fcdf94e63f3a19bf04d3e.jpg",
+      "catalogName": "xolodnie_zakuski",
+      "description": "Маринованные шаминьоны в сырном соусе",
+      "weight": "200гр.",
+      "cost": "900 ₽"
+    },
+    {
+      "id": 12,
+      "title": "Соус сырный",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fiWeWLbwpQgdUEVpWKR0wgc55mUJaVu2Qw&usqp=CAU",
+      "catalogName": "sousi",
+      "description": "Сырный соус с зеленью",
+      "weight": "200гр.",
+      "cost": "400 ₽"
+    },
+    {
+      "id": 13,
+      "title": "Хлеб",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9tQ_R0r_NAIg3u-g6qVMs-e9QfH4UMkjDQA&usqp=CAU",
+      "catalogName": "xleb",
+      "description": "свежий хлеб из отборных сортов пшеницы",
+      "weight": "200гр.",
+      "cost": "400 ₽"
+    },
+    {
+      "id": 14,
+      "title": "Апельсиновый сок",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScexBu6FDyhfS2LhrwQfDGVb98BIb7cF31-w&usqp=CAU",
+      "catalogName": "napitki",
+      "description": "Подается со льдом",
+      "weight": "200гр.",
+      "cost": "1800 ₽"
+    },
+    {
+      "id": 15,
+      "title": "Red Label",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHyB9yC6oDGO6L7yhEa4tzoy547jHCiW9VNg&usqp=CAU",
+      "description": "Подается С закуской",
+      "weight": "200гр.",
+      "cost": "1500 ₽",
+      "catalogName": "alkogol"
+    },
+    {
+      "id": 16,
+      "title": "Лаваш",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOJTV2_Qn-JjNLdoZvzbxw6mBfbXcQ_oyMvg&usqp=CAU",
+      "description": "Армянский лаваш",
+      "weight": "2 шт.",
+      "cost": "200 ₽",
+      "catalogName": "xleb"
+    },
+    {
+      "id": 17,
+      "title": "Люля кебаб из говядины",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAbiiJwvkMWnCYDMUAR90zirq6_ScRUiD9vw&usqp=CAU",
+      "catalogName": "lyulya_kebab",
+      "cost": "1980 ₽",
+      "weight": "150 гр.",
+      "description": "Подается С Луком, Соусом И С Лавашом"
+    },
+    {
+      "id": 18,
+      "title": "Люля кебаб из свинины",
+      "catalogName": "lyulya_kebab",
+      "description": "Подается С Луком, Соусом И С Лавашом",
+      "cost": "2000 ₽",
+      "weight": "200гр.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-tLq8dLtRFYJcrtVhlD4rWfIBSbCc7r3nQ&usqp=CAU"
+    },
+    {
+      "id": 19,
+      "title": "Люля кебаб из баранины",
+      "catalogName": "lyulya_kebab",
+      "description": "Подается С Луком, Соусом И С Лавашом",
+      "cost": "2040 ₽",
+      "weight": "200гр.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCf-jx7SqiAKuYeCMPxvsM3VkREFAlHzmS4Q&usqp=CAU"
+    },
+    {
+      "id": 20,
+      "title": "Шашлык из баранины ребра",
+      "catalogName": "baranina",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPFY9ne4pwcEJGwSqa5SA7Zu8pEkV1aAHF9A&usqp=CAU",
+      "cost": "1500 ₽",
+      "description": "Подается вместе с соусом",
+      "weight": "250 гр."
+    },
+    {
+      "id": 21,
+      "catalogName": "baranina",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfLnI5QHPxL_K11b1BCn22YdN4aepDf3CXw&usqp=CAU",
+      "cost": "1500 ₽",
+      "description": "Подается вместе с соусом",
+      "weight": "250 гр.",
+      "title": "шашлык из баранины по-кавказски"
+    },
+    {
+      "id": 22,
+      "title": " Шашлык из Баранины корейка",
+      "catalogName": "baranina",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtA1NVzQf7isbeg6XbYBodrCl3SatPvqNM4g&usqp=CAU",
+      "cost": "1980 ₽",
+      "description": "Подается С закуской",
+      "weight": "200гр."
+    },
+    {
+      "id": 23,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq1L7Ic9eTVnj6Ka6PDCTXWC_OLOyfcsx_KA&usqp=CAU",
+      "catalogName": "govyadina",
+      "title": " Шашлык из говядины",
+      "cost": "1980 ₽",
+      "description": "Подается С закуской",
+      "weight": "200гр."
+    },
+    {
+      "id": 24,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_TYkd9mIf4PYkGVy45ElwUEtuvvYYPZe-hg&usqp=CAU",
+      "catalogName": "govyadina",
+      "cost": "1980 ₽",
+      "description": "Подается С закуской",
+      "weight": "200гр.",
+      "title": " Стейк рибай"
+    },
+    {
+      "id": 25,
+      "catalogName": "kurica",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNf5D6NIpebCfSTcjf9xRpuLEuHVNn3G5B_g&usqp=CAU",
+      "title": " Шашлык из курицы",
+      "cost": "1980 ₽",
+      "description": "Подается С Лавашом",
+      "weight": "200гр."
+    },
+    {
+      "id": 26,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO8yFc0T-IRXMSZXbCLYqgI376mni4zjZVHQ&usqp=CAU",
+      "title": "Курица в соевом соусе",
+      "catalogName": "kurica",
+      "cost": "1980 ₽",
+      "description": "Подается С закуской",
+      "weight": "200гр."
+    },
+    {
+      "id": 27,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD8bLC8Gx8AJ5QouukNaXN-iVBtLZVmZc-aA&usqp=CAU",
+      "title": "Куриные крылышки",
+      "catalogName": "kurica",
+      "cost": "1980 ₽",
+      "description": "Подается С закуской",
+      "weight": "200гр."
+    },
+    {
+      "id": 27,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJD2yKCyKlXwS4tBFHyIEdynvZeM88DYLTA&usqp=CAU",
+      "catalogName": "riba",
+      "title": "Шашлык из рыбы",
+      "cost": "1980 ₽",
+      "description": "Подается С закуской",
+      "weight": "200гр."
+    },
+    {
+      "id": 28,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzMf0eGQU9DPRMDiYLhexJp_Hm72ZqB5U6AQ&usqp=CAU",
+      "title": "Сибас на гриле",
+      "catalogName": "riba",
+      "cost": "1500 ₽",
+      "description": "Подается вместе с соусом",
+      "weight": "250 гр."
+    },
+    {
+      "id": 29,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ZSRG9GQi3_KrxOf9tjY610N7PX4C3hVDAg&usqp=CAU",
+      "title": " Шашлык из скумбрии",
+      "catalogName": "riba",
+      "cost": "1980 ₽",
+      "description": "Подается С закуской",
+      "weight": "200гр."
+    },
+    {
+      "id": 30,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSIIdqZF2_6yM9hu9NYoC0m2xspiRhhzQTEA&usqp=CAU",
+      "title": "Овощи на мангале",
+      "catalogName": "ovoshi",
+      "cost": "1980 ₽",
+      "description": "Подается С закуской",
+      "weight": "200гр."
+    },
+    {
+      "id": 31,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEBtI_qMumL1pxTFRiIbdtRMF4KJmMf5Dn7A&usqp=CAU",
+      "title": "Овощной шашлык",
+      "catalogName": "ovoshi",
+      "cost": "300 ₽",
+      "description": "Подается С Луком, Соусом И С Лавашом",
+      "weight": "200гр."
+    },
+    {
+      "id": 32,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPR6STCKum6CNt2oI918OIJasbdnWX-DPS8A&usqp=CAU",
+      "title": "Картошка на углях с салом",
+      "catalogName": "kartoshka_na_uglyakh",
+      "cost": "200 ₽",
+      "description": "Подается С Лавашом",
+      "weight": "200гр."
+    },
+    {
+      "id": 33,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFW9VwtqHtzQyWUg42Z79yAbvaV87hTEksMQ&usqp=CAU",
+      "title": "Шаурма на углях из говядины",
+      "catalogName": "shaurma_na_uglyakh",
+      "cost": "1400 ₽",
+      "description": "Подается С Лавашом",
+      "weight": "250 гр."
+    },
+    {
+      "id": 34,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-INZhvU5imvS0-p2pK9EpDCofCKPT0YhOwA&usqp=CAU",
+      "title": "Лангет из свинины",
+      "catalogName": "langet",
+      "cost": "1600 ₽",
+      "description": "Подается вместе с картошкой фри и соусом",
+      "weight": "200гр."
+    },
+    {
+      "id": 35,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMZmqavgo5sT3frlXErbzi7dJIS4xxnLdhkw&usqp=CAU",
+      "catalogName": "salati",
+      "title": "Салат цезарь",
+      "cost": "1500 ₽",
+      "description": "курица, рукколла, сыр, сухари",
+      "weight": "150 гр."
+    },
+    {
+      "id": 36,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4G5Aadfr9HvN4lipWjwXslxOJJM6DIudHsA&usqp=CAU",
+      "catalogName": "salati",
+      "title": "Салат мимоза",
+      "description": "Сыр, лук, рыба",
+      "cost": "300 ₽",
+      "weight": "200гр."
+    },
+    {
+      "id": 37,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWgzX6C8g_XZDmiPxfLpVHUNcpEEpTmx5tUw&usqp=CAU",
+      "catalogName": "salati",
+      "title": "Салат капрезе",
+      "description": "Подается вместе с соусом",
+      "cost": "1400 ₽",
+      "weight": "250 гр."
+    },
+    {
+      "id": 38,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxgOiseheix7bSlY1TTywfTKmc1E4KZwRh8g&usqp=CAU",
+      "title": "Рыбные закуски",
+      "catalogName": "xolodnie_zakuski",
+      "description": "Подается вместе с картошкой фри и соусом",
+      "cost": "1300 ₽",
+      "weight": "150 гр."
+    },
+    {
+      "id": 39,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0UsLzdHW_7kWZLHHEMBca14tUKmRmbEopyQ&usqp=CAU",
+      "catalogName": "xolodnie_zakuski",
+      "title": "Сырная тарелка",
+      "cost": "1400 ₽",
+      "description": "Подается вместе с вином",
+      "weight": "200гр."
+    },
+    {
+      "id": 40,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuO3W-pOTJlh2rRe5L_tUQni37vK0xjOda7g&usqp=CAU",
+      "title": "Соус из авокадо",
+      "catalogName": "sousi",
+      "cost": "1500 ₽",
+      "description": "Подается С закуской",
+      "weight": "200гр."
+    },
+    {
+      "id": 41,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKWEN9eoujRNvuU8pXga7X2LecicXnL6NOWg&usqp=CAU",
+      "title": "Соус из базилика",
+      "catalogName": "sousi",
+      "cost": "1500 ₽",
+      "description": "Подается С закуской",
+      "weight": "150 гр."
+    },
+    {
+      "id": 42,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDxqsE_OoWIVjvhku_ohNq74fkUe9jz9VU2w&usqp=CAU",
+      "title": "Яблочный сок",
+      "catalogName": "napitki",
+      "cost": "200 ₽",
+      "description": "Подается со льдом",
+      "weight": "150 гр."
+    },
+    {
+      "id": 43,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj4YNfjZBmGfnMH8rYf7t-ysg_luSnyyWOtg&usqp=CAU",
+      "catalogName": "napitki",
+      "title": "Гранатовый фреш",
+      "cost": "1300 ₽",
+      "description": "Подается со льдом",
+      "weight": "150 гр."
+    },
+    {
+      "id": 44,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmpPcoHm7yaLkpxYp9JFoovmZJxCVfKxKr_Q&usqp=CAU",
+      "title": "Jack Daniels",
+      "catalogName": "alkogol",
+      "cost": "1900 ₽",
+      "description": "Подается со льдом",
+      "weight": "200гр."
+    },
+    {
+      "id": 45,
+      "catalogName": "alkogol",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOyV5sZMXhtMvhSwAJGheS7pQKpVpjSZGdkw&usqp=CAU",
+      "title": "Martini Bianco",
+      "cost": "1300 ₽",
+      "description": "Подается со лимоном",
+      "weight": "150 гр."
+    },
+    {
+      "id": 46,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKYV8BnhVbrdukzMtI1NcXqWbuLaiIoUOtZA&usqp=CAU",
+      "title": "Коньяк Арарат",
+      "catalogName": "alkogol",
+      "cost": "1600 ₽",
+      "description": "Подается С закуской",
+      "weight": "150 гр."
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Люля кебаб",
+      "slug": "lyulya_kebab",
+      "icon": "",
+      "checked": true
+    },
+    {
+      "id": 2,
+      "title": "Баранина",
+      "slug": "baranina",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 3,
+      "title": "Говядина",
+      "slug": "govyadina",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 4,
+      "title": "курица",
+      "slug": "kurica",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 5,
+      "title": "рыба",
+      "slug": "riba",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 6,
+      "title": "Овощи",
+      "slug": "ovoshi",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 7,
+      "title": "Картошка на углях",
+      "slug": "kartoshka_na_uglyakh",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 8,
+      "title": "Шаурма на углях",
+      "slug": "shaurma_na_uglyakh",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 9,
+      "title": "Лангет",
+      "slug": "langet",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 10,
+      "title": "Салаты",
+      "slug": "salati",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 11,
+      "title": "Холодные закуски",
+      "slug": "xolodnie_zakuski",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 12,
+      "title": "Соусы",
+      "slug": "sousi",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 13,
+      "title": "Хлеб",
+      "slug": "xleb",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 14,
+      "title": "Напитки",
+      "slug": "napitki",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 15,
+      "title": "Алкоголь",
+      "slug": "alkogol",
+      "icon": "",
+      "checked": false
+    }
+  ],
+  "delivery": [
+    {
+      "name": "nelly",
+      "address": "mikoyan",
+      "email": "nellyghazaryan55@gmail.com",
+      "phone": "5454545",
+      "id": 1
+    },
+    {
+      "name": "someone",
+      "address": "somewhere 23",
+      "email": "nellyghazaryan55@gmail.com",
+      "phone": "4343434",
+      "id": 2
+    }
+  ]
+}

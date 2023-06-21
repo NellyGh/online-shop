@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+.errorpage {
+  padding: 0 20px;
+  width: 100%;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  min-height: 100vh
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.errorpage .errorpage__container {
+  max-width: 1280px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.errorpage .errorpage__container h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #407AFF;
+  font-family: Montserrat;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.errorpage .errorpage__container button {
+  background: #E8C600;
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-family: Montserrat;
+  transition: cubic-bezier(.14, .93, .8, .4) 1s
+}
+
+.errorpage .errorpage__container button:hover {
+  background-color: #407AFF;
 }
