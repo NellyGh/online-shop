@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/online-shop/static/css/main.44a59d3c.css",
+    "main.js": "/online-shop/static/js/main.e7d5f74c.js",
+    "static/media/Rectangle 5.png": "/online-shop/static/media/Rectangle 5.413ab66c8e1f9a794e7a.png",
+    "static/media/Rectangle20.png": "/online-shop/static/media/Rectangle20.a120fb06e20c9ac475e6.png",
+    "static/media/logo2.svg": "/online-shop/static/media/logo2.6ab88d59a5a1b241c547685fc6b8d9c7.svg",
+    "static/media/logo.svg": "/online-shop/static/media/logo.d1f7c1ff7a8c51f79205962d5c8fd4be.svg",
+    "static/media/IMAGE.png": "/online-shop/static/media/IMAGE.0ff1deffcc586f8470dc.png",
+    "static/media/Rectangle 30.png": "/online-shop/static/media/Rectangle 30.2e1f253404b5620393e4.png",
+    "static/media/Rectangle 29.png": "/online-shop/static/media/Rectangle 29.06c1ccf0f30166f0c5fa.png",
+    "static/media/Rectangle 28.png": "/online-shop/static/media/Rectangle 28.8364fa2f6e1f98dbecdf.png",
+    "index.html": "/online-shop/index.html",
+    "main.44a59d3c.css.map": "/online-shop/static/css/main.44a59d3c.css.map",
+    "main.e7d5f74c.js.map": "/online-shop/static/js/main.e7d5f74c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44a59d3c.css",
+    "static/js/main.e7d5f74c.js"
+  ]
+}
